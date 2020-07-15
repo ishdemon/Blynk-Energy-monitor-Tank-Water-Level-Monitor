@@ -4,7 +4,9 @@ A Blynk based IOT project that contains one main module with PZEM00T v3 to monit
 <h2> Features</h2>
 1) Calculates Percentage of water in tank(I used Cylindrical)<br>
 2) Automatically turns off Pump connected to relay when Tank is full
-3) Wifi signal strength indicator<br>
+3) Calculates Load(power) connected, AC voltage, current, power factor, frequency.
+4) Wifi signal strength indicator<br>
+
 
 <h2>Requirements</h2>
 1) <a href="https://play.google.com/store/apps/details?id=cc.blynk" target="_blank">Blynk App</a><br>
@@ -15,7 +17,7 @@ A Blynk based IOT project that contains one main module with PZEM00T v3 to monit
 Open settings.h and change Bynk Auth code, Wifi settings, server settings and flow calibration.
 
 <h2>Blynk App </h2>
-<img src="/images/Blynk_app.jpg" width="" height=" ">
+<img src="/images/Blynk_app.jpg" width="300" height="600">
 
 <h2>Sensor Module Connection </h2>
 <img src="/images/nodemcu-to-ultrasonic-sensor-connection.png" width="400" height=" " alt="NodeMCU to Ultrasonic Sensor Connection" title="NodeMCU to Ultrasonic Sensor Connection">
